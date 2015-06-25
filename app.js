@@ -22,8 +22,8 @@ var main = function(){
             nextDot = $('.dot').first(); 
         }
         
-        currentSlide.fadeOut(600).removeClass('active-slide');
-        nextSlide.fadeIn(600).addClass('active-slide');
+        currentSlide.fadeOut(1100).removeClass('active-slide');
+        nextSlide.fadeIn(1100).addClass('active-slide');
         
         currentDot.removeClass('active-dot');
         nextDot.addClass('active-dot');
